@@ -6,7 +6,7 @@ Our Goal was to build a self driving car from arduino or lego. Unfortunately we 
 # The Team:
 
 Our team leader/mentor:
--Csaba Deák
+- Csaba Deák
 
 And the three competitors:
 - Kristóf Kanyog 
