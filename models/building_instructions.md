@@ -1,3 +1,4 @@
-The is the Google Drive link for the building instructions:
-
-[PDF megnyitása](wro_robot2024.pdf)
+Model and building instructions:
+![Robot](firstpage_sm.jpg)
+[Open PDF](wro_robot2024.pdf)
+[Model file (io)](wro_robot2024.io)
