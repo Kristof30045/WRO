@@ -2,7 +2,7 @@ Team's photos
 ====
 
 ## Image 1
-<img src="serious.jpg" alt="description" width="200"/>
+
 ![LEGO storage room](serious.jpg)
 This picture was taken in our school's LEGO storage room.
 
