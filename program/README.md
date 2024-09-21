@@ -1,31 +1,30 @@
 # 1. Prototype
-a.	Considerations
-  i. high manoeuvrability
-  ii. narrow width
-  iii. easy variability of sensor placement
-  iv. we wanted to build the robot from the spike kit
-  v.	Camera (unfortunately this was not available)
 
-b.	Construction
-  i.	Steering gear design with pivot, also known as waist articulation, agreed in advance by e-mail.
-  ii. Size: 290x100x150 cm
-  
-  iii. Weight: 605g
-  
-  iv. Components: 
-    1. The robot was built from the Lego Spike kit
-    2. Lego Spike Brick
-    3. size of the 4 wheels: 56x16mm
+   a. Considerations
+      1. High manoeuvrability
+      2. Narrow width
+      3. Easy variability of sensor placement
+      4. We wanted to build the robot from the Spike kit
+      5. Camera (unfortunately this was not available)
 
-v.	Sensors: 
-  1. 2 distance sensors
-  2. 4 axis built-in gyroscope
-  3. 1 colour sensor (motor driven by an arm design to identify obstacles to be avoided from above)
+   b. Construction
+      1. Steering gear design with pivot, also known as waist articulation, agreed in advance by e-mail.
+      2. Size: 290x100x150 cm
+      3. Weight: 605g
+      4. Components:
+         - The robot was built from the Lego Spike kit
+         - Lego Spike Brick
+         - Size of the 4 wheels: 56x16mm
+      5. Sensors:
+         - 2 distance sensors
+         - 4 axis built-in gyroscope
+         - 1 colour sensor (motor driven by an arm design to identify obstacles to be avoided from above)
+      6. Motors:
+         - 3 medium motors:
+            - To rotate the colour sensor
+            - To rotate the steering
+            - To move the robot
 
-vi.	Motors: 3 medium motors:
-  1. to rotate the colour sensor 
-  2. to rotate the steering
-  3. to move the robot
 
 # 2. Programming
 a.	Formulation of subtasks
