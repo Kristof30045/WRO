@@ -26,7 +26,7 @@
           - To rotate the steering  
           - To move the robot
           
-<img src="../v-photos/left.jpg" alt="robot" width="300">
+<img src="../v-photos/left.jpg" alt="robot">
 
 
 ### 2. Programming
@@ -44,11 +44,18 @@
    - **Strategy 1:** Maximum speed, maintaining a minimum safe distance from the inner wall. This minimized the running time!  
    - **Test data:** Average task time: 1 minute 29 seconds.
 
-<img src="../v-photos/left.jpg" alt="robot" width="300">
+<img src="Openflowchart.jpg" alt="robot" >
+### b. Obstacle Course
 
-b.	Obstacle course
-  i. obstacle detection: 
-  1. Obstacle detection is possible with distance sensors facing sideways.
-  2. The colour of the obstacle is determined by means of a colour sensor positioned above the sideways projecting obstacle.
-  Problem 3: Obstacle detection with high probability of success. Determining the colour of obstacles is successful with low probability.
-  Obstacle avoidance: A static sequence of movements can be used to avoid the obstacle and return to the ideal arc. One -one avoidance still has a high probability of success, but many avoidances accumulate         errors and the whole task can get stuck. Thus, we made the strategic decision to maximize points to make sure to finish and park, so we ignored the obstacles and did not touch them. By following the inner arc,    we avoid half of the obstacles from the right direction.  	
+#### i. Obstacle Detection
+1. Obstacle detection is possible with distance sensors facing sideways.
+2. The color of the obstacle is determined by means of a color sensor positioned above the sideways projecting obstacle.
+
+**Problem:** Obstacle detection has a high probability of success. Determining the color of obstacles is successful with low probability.
+
+#### Obstacle Avoidance
+A static sequence of movements can be used to avoid the obstacle and return to the ideal arc. One-on-one avoidance still has a high probability of success, but many avoidances accumulate errors and the whole task can get stuck. 
+
+Thus, we made the strategic decision to maximize points to ensure we finish and park, so we ignored the obstacles and did not touch them. By following the inner arc, we avoid half of the obstacles from the right direction.
+
+<img src="Obstacleflowchart.jpg" alt="robot">
