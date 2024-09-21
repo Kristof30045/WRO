@@ -1,4 +1,22 @@
 Team's photos
 ====
 
-This directory must contain 2 photos of the team (an official one and one funny photo with all team members)
+## Image 1
+
+![LEGO storage room](serious.jpg)
+This picture was taken in our school's LEGO storage room.
+
+## Image 2
+
+![Laci joking](funny.jpg)
+Sometimes we joke around; Laci loves to make us laugh.
+
+## Image 3
+
+![Working](work1.jpg)
+At work.
+
+## Image 4
+
+![Still working](wokr2.jpg)
+At work.
