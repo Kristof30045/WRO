@@ -1,5 +1,5 @@
 
-       1. Prototype
+1. Prototype
 
    a. **Considerations**  
       - High manoeuvrability  
@@ -26,7 +26,7 @@
           - To rotate the steering  
           - To move the robot
           
-  <img src="v-photos\front.jpg" alt="robot" width="300">
+<img src="v-photos/front.jpg" alt="robot" width="300">
 
 
  2. Programming
