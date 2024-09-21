@@ -26,24 +26,25 @@
           - To rotate the steering  
           - To move the robot
           
-<img src="../v-photos/front.jpg" alt="robot" width="300">
+<img src="../v-photos/left.jpg" alt="robot" width="300">
 
 
- 2. Programming
-a.	Formulation of subtasks
-  Straight motion: using gyroscope, we solved the high precision straight motion using P algorithm.
- 
-  ii. turning: accurate 90° turns are important, so this was dealt with in a separate subtask, also in a separate block (procedure) in the program. 
+### 2. Programming
 
-  iii. from the parking lot: Before exiting the parking lot, distance sensors are used to determine the direction in which the robot will move, and the robot starts the next subroutine accordingly.
-  
-  iv. to parking: the robot keeps a variable record of the lap it is currently on. After the third lap, it switches to parking mode. It searches for a parking space and performs a partial parking. A separate            block (procedure) is created for this and the turning of the parking spaces is also set in a separate procedure.
-      Your block (procedure).
+#### a. Formulation of Subtasks
+1. **Straight motion:** Using the gyroscope, we solved the high precision straight motion using the P algorithm.
 
-  v.	 Free run task: the procedures tested in the sub-tasks can be combined to solve the Free run task.
-       Strategy 1: Maximum speed, maintaining a minimum safe distance from the inner wall. This minimized the running time!
-       Test data 2: Average task time: 1 minute 29 seconds
+2. **Turning:** Accurate 90° turns are important, so this was dealt with in a separate subtask, also in a separate block (procedure) in the program.
 
+3. **From the parking lot:** Before exiting the parking lot, distance sensors are used to determine the direction in which the robot will move, and the robot starts the next subroutine accordingly.
+
+4. **To parking:** The robot keeps a variable record of the lap it is currently on. After the third lap, it switches to parking mode. It searches for a parking space and performs a partial parking. A separate block (procedure) is created for this, and the turning of the parking spaces is also set in a separate procedure.
+
+5. **Free run task:** The procedures tested in the subtasks can be combined to solve the free run task.  
+   - **Strategy 1:** Maximum speed, maintaining a minimum safe distance from the inner wall. This minimized the running time!  
+   - **Test data:** Average task time: 1 minute 29 seconds.
+
+<img src="../v-photos/left.jpg" alt="robot" width="300">
 
 b.	Obstacle course
   i. obstacle detection: 
