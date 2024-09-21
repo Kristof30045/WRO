@@ -25,37 +25,36 @@
           - To rotate the colour sensor  
           - To rotate the steering  
           - To move the robot
-          
-<img src="../v-photos/left.jpg" alt="robot">
 
+![robot](../v-photos/left.jpg)
 
-### 2. Programming
+# 2. Programming
 
-#### a. Formulation of Subtasks
-1. **Straight motion:** Using the gyroscope, we solved the high precision straight motion using the P algorithm.
+   ## a. Formulation of Subtasks
+   1. **Straight motion:** Using the gyroscope, we solved the high precision straight motion using the P algorithm.
+   
+   2. **Turning:** Accurate 90° turns are important, so this was dealt with in a separate subtask, also in a separate block (procedure) in the program.
+   
+   3. **From the parking lot:** Before exiting the parking lot, distance sensors are used to determine the direction in which the robot will move, and the robot starts the next subroutine accordingly.
+   
+   4. **To parking:** The robot keeps a variable record of the lap it is currently on. After the third lap, it switches to parking mode. It searches for a parking space and performs a partial parking. A separate block (procedure) is created for this, and the turning of the parking spaces is also set in a separate procedure.
+   
+   5. **Free run task:** The procedures tested in the subtasks can be combined to solve the free run task.  
+      - **Strategy 1:** Maximum speed, maintaining a minimum safe distance from the inner wall. This minimized the running time!  
+      - **Test data:** Average task time: 1 minute 29 seconds.
 
-2. **Turning:** Accurate 90° turns are important, so this was dealt with in a separate subtask, also in a separate block (procedure) in the program.
-
-3. **From the parking lot:** Before exiting the parking lot, distance sensors are used to determine the direction in which the robot will move, and the robot starts the next subroutine accordingly.
-
-4. **To parking:** The robot keeps a variable record of the lap it is currently on. After the third lap, it switches to parking mode. It searches for a parking space and performs a partial parking. A separate block (procedure) is created for this, and the turning of the parking spaces is also set in a separate procedure.
-
-5. **Free run task:** The procedures tested in the subtasks can be combined to solve the free run task.  
-   - **Strategy 1:** Maximum speed, maintaining a minimum safe distance from the inner wall. This minimized the running time!  
-   - **Test data:** Average task time: 1 minute 29 seconds.
-
-<img src="Openflowchart.jpg" alt="robot" >
-### b. Obstacle Course
-
-#### i. Obstacle Detection
-1. Obstacle detection is possible with distance sensors facing sideways.
-2. The color of the obstacle is determined by means of a color sensor positioned above the sideways projecting obstacle.
+![flowchart](Openflowchart.jpg)
+   ## b. Obstacle Course
+   ### 1. Obstacle Detection
+         - Obstacle detection is possible with distance sensors facing sideways.
+         - The color of the obstacle is determined by means of a color sensor positioned above the sideways projecting obstacle.
 
 **Problem:** Obstacle detection has a high probability of success. Determining the color of obstacles is successful with low probability.
 
-#### Obstacle Avoidance
-A static sequence of movements can be used to avoid the obstacle and return to the ideal arc. One-on-one avoidance still has a high probability of success, but many avoidances accumulate errors and the whole task can get stuck. 
+   #### Obstacle Avoidance
+   A static sequence of movements can be used to avoid the obstacle and return to the ideal arc. One-on-one avoidance still has a high probability of success, but many avoidances accumulate errors and the whole task can get stuck. 
+   
+   Thus, we made the strategic decision to maximize points to ensure we finish and park, so we ignored the obstacles and did not touch them. By following the inner arc, we avoid half of the obstacles from the right direction.
 
-Thus, we made the strategic decision to maximize points to ensure we finish and park, so we ignored the obstacles and did not touch them. By following the inner arc, we avoid half of the obstacles from the right direction.
 
-<img src="Obstacleflowchart.jpg" alt="robot">
+![flowchart](Obstacleflowchart.jpg)
