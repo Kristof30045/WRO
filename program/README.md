@@ -30,7 +30,7 @@
 
        </td>
        <td>
-          <img src="front.jpg" alt="robot">
+          <img src="v-photos\front.jpg" alt="robot">
       </td>
    </tr>
 </table>
