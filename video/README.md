@@ -1,6 +1,7 @@
 Open challange videos for the international competition:
 
-# https://youtu.be/TlbVdJkLLWk
+<iframe width="560" height="315" src="https://youtu.be/TlbVdJkLLWk" frameborder="0" allowfullscreen></iframe>
+
 
 # https://youtu.be/06s1XPN6DvM
 
