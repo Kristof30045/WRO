@@ -27,6 +27,7 @@
           - To move the robot
       - Camera phone:
             - connection to the hub via Bluetooth.
+        
 ![robot](../v-photos/left.jpg)
 ![robot](../schemes/scheme2.png)
 # 2. Programming
