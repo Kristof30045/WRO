@@ -1,6 +1,4 @@
-<table>
-  <tr>
-    <td>
+
        1. Prototype
 
    a. **Considerations**  
@@ -27,13 +25,8 @@
           - To rotate the colour sensor  
           - To rotate the steering  
           - To move the robot
-
-       </td>
-       <td>
-          <img src="v-photos\front.jpg" alt="robot"/>
-      </td>
-   </tr>
-</table>
+          
+  <img src="v-photos\front.jpg" alt="robot" width="300">
 
 
  2. Programming
