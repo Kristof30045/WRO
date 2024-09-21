@@ -1,4 +1,4 @@
-# Our Robot Project
+# Our Robot
 
 Here is a complete view of our robot from all six sides.
 
