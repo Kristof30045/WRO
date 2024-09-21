@@ -1,33 +1,31 @@
-
 1. Prototype
-   
-   a. Considerations
-      1. High manoeuvrability
-      2. Narrow width
-      3. Easy variability of sensor placement
-      4. We wanted to build the robot from the Spike kit
-      5. Camera (unfortunately this was not available)
 
-   b. Construction
-      1. Steering gear design with pivot, also known as waist articulation, agreed in advance by e-mail.
-      2. Size: 290x100x150 cm
-      3. Weight: 605g
-      4. Components:
-         - The robot was built from the Lego Spike kit
-         - Lego Spike Brick
-         - Size of the 4 wheels: 56x16mm
-      5. Sensors:
-         - 2 distance sensors
-         - 4 axis built-in gyroscope
-         - 1 colour sensor (motor driven by an arm design to identify obstacles to be avoided from above)
-      6. Motors:
-         - 3 medium motors:
-            - To rotate the colour sensor
-            - To rotate the steering
-            - To move the robot
+   a. **Considerations**  
+      - High manoeuvrability  
+      - Narrow width  
+      - Easy variability of sensor placement  
+      - We wanted to build the robot from the Spike kit  
+      - Camera (unfortunately this was not available)
 
+   b. **Construction**  
+      - Steering gear design with pivot, also known as waist articulation, agreed in advance by e-mail.  
+      - Size: 290x100x150 cm  
+      - Weight: 605g  
+      - Components:  
+        - The robot was built from the Lego Spike kit  
+        - Lego Spike Brick  
+        - Size of the 4 wheels: 56x16mm  
+      - Sensors:  
+        - 2 distance sensors  
+        - 4 axis built-in gyroscope  
+        - 1 colour sensor (motor driven by an arm design to identify obstacles to be avoided from above)  
+      - Motors:  
+        - 3 medium motors:  
+          - To rotate the colour sensor  
+          - To rotate the steering  
+          - To move the robot
 
-# 2. Programming
+ 2. Programming
 a.	Formulation of subtasks
   Straight motion: using gyroscope, we solved the high precision straight motion using P algorithm.
  
