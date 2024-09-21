@@ -25,9 +25,10 @@
           - To rotate the colour sensor  
           - To rotate the steering  
           - To move the robot
-
+      - Camera phone:
+            - connection to the hub via Bluetooth.
 ![robot](../v-photos/left.jpg)
-
+![robot](../schemes/scheme2.png)
 # 2. Programming
 
    ## a. Formulation of Subtasks
