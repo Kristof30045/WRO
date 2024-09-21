@@ -1,4 +1,7 @@
-1. Prototype
+<table>
+  <tr>
+    <td>
+       1. Prototype
 
    a. **Considerations**  
       - High manoeuvrability  
@@ -24,6 +27,14 @@
           - To rotate the colour sensor  
           - To rotate the steering  
           - To move the robot
+
+       </td>
+       <td>
+          <img src="front.jpg" alt="robot">
+      </td>
+   </tr>
+</table>
+
 
  2. Programming
 a.	Formulation of subtasks
