@@ -1,14 +1,14 @@
 
 # 1. Prototype
 
-   a. **Considerations**  
+1. **Considerations**  
       - High manoeuvrability  
       - Narrow width  
       - Easy variability of sensor placement  
       - We wanted to build the robot from the Spike kit  
       - Camera (unfortunately this was not available)
 
-   b. **Construction**  
+2. **Construction**  
       - Steering gear design with pivot, also known as waist articulation, agreed in advance by e-mail.  
       - Size: 290x100x150 cm  
       - Weight: 605g  
