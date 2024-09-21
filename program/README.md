@@ -44,14 +44,14 @@
       - **Test data:** Average task time: 1 minute 29 seconds.
 
 ![flowchart](Openflowchart.jpg)
-   ## b. Obstacle Course
-   ### 1. Obstacle Detection
+ ## b. Obstacle Course
+- **Obstacle Detection**
          - Obstacle detection is possible with distance sensors facing sideways.
          - The color of the obstacle is determined by means of a color sensor positioned above the sideways projecting obstacle.
 
-**Problem:** Obstacle detection has a high probability of success. Determining the color of obstacles is successful with low probability.
+- **Problem:** Obstacle detection has a high probability of success. Determining the color of obstacles is successful with low probability.
 
-   #### Obstacle Avoidance
+   ### Obstacle Avoidance
    A static sequence of movements can be used to avoid the obstacle and return to the ideal arc. One-on-one avoidance still has a high probability of success, but many avoidances accumulate errors and the whole task can get stuck. 
    
    Thus, we made the strategic decision to maximize points to ensure we finish and park, so we ignored the obstacles and did not touch them. By following the inner arc, we avoid half of the obstacles from the right direction.
