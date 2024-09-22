@@ -12,7 +12,7 @@
    
    5. **Free run task:** The procedures tested in the subtasks can be combined to solve the free run task.  
       - **Strategy 1:** Maximum speed, maintaining a minimum safe distance from the inner wall. This minimized the running time!  
-      - **Test data:** Average task time: 1 minute 29 seconds.
+      - **Test data:** Average task time: 0 minute 55 seconds.
 
 ![flowchart](Openflowchart.jpg)
 
