@@ -1,7 +1,6 @@
-Electromechanical diagrams
-====
 
 # 1. Prototype
+![robot](../v-photos/left.jpg)
 
 1. **Considerations**  
       - High manoeuvrability  
@@ -30,5 +29,5 @@ Electromechanical diagrams
       - Camera phone:
             - connection to the hub via Bluetooth.
         
-![robot](../v-photos/left.jpg)
+
 ![robot](../schemes/scheme2.png)
