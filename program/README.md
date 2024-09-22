@@ -1,36 +1,5 @@
 
-# 1. Prototype
-
-1. **Considerations**  
-      - High manoeuvrability  
-      - Narrow width  
-      - Easy variability of sensor placement  
-      - We wanted to build the robot from the Spike kit  
-      - Camera (unfortunately this was not available)
-
-2. **Construction**  
-      - Steering gear design with pivot, also known as waist articulation, agreed in advance by e-mail.  
-      - Size: 290x100x150 cm  
-      - Weight: 605g  
-      - Components:  
-        - The robot was built from the Lego Spike kit  
-        - Lego Spike Brick  
-        - Size of the 4 wheels: 56x16mm  
-      - Sensors:  
-        - 2 distance sensors  
-        - 4 axis built-in gyroscope  
-        - 1 colour sensor (motor driven by an arm design to identify obstacles to be avoided from above)  
-      - Motors:  
-        - 3 medium motors:  
-          - To rotate the colour sensor  
-          - To rotate the steering  
-          - To move the robot
-      - Camera phone:
-            - connection to the hub via Bluetooth.
-        
-![robot](../v-photos/left.jpg)
-![robot](../schemes/scheme2.png)
-# 2. Programming
+# 1. Programming
 
    ## a. Formulation of Subtasks
    1. **Straight motion:** Using the gyroscope, we solved the high precision straight motion using the P algorithm.
@@ -48,7 +17,7 @@
 ![flowchart](Openflowchart.jpg)
 
 
-## c. Obstacle Detection
+## b. Obstacle Detection
 
 A machine learning add-on is available for the LEGO MINDSTORMS Robot Inventor software, allowing users to integrate machine learning models into their robots. This add-on typically includes the following:
 ![maching learn](machinglearn.jpg
@@ -61,7 +30,7 @@ A machine learning add-on is available for the LEGO MINDSTORMS Robot Inventor so
 ![flowchart](Obstacleflowchart.jpg)
 
 
-# 3. Block code
+# 2. Block code
 ![code 1](code1.jpg)
 ![code 2](code2.jpg)
 ![code 3](code3.jpg)
