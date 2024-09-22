@@ -46,27 +46,24 @@
       - **Test data:** Average task time: 1 minute 29 seconds.
 
 ![flowchart](Openflowchart.jpg)
- ## b. Obstacle Course
-- **Obstacle Detection**
-         - Obstacle detection is possible with distance sensors facing sideways.
-         - The color of the obstacle is determined by means of a color sensor positioned above the sideways projecting obstacle.
-
-- **Problem:** Obstacle detection has a high probability of success. Determining the color of obstacles is successful with low probability.
-
-   ### Obstacle Avoidance
-   A static sequence of movements can be used to avoid the obstacle and return to the ideal arc. One-on-one avoidance still has a high probability of success, but many avoidances accumulate errors and the whole task can get stuck. 
-   
-   Thus, we made the strategic decision to maximize points to ensure we finish and park, so we ignored the obstacles and did not touch them. By following the inner arc, we avoid half of the obstacles from the right direction.
 
 
-![flowchart](Obstacleflowchart.jpg)
 ## c. Obstacle Detection
 
 A machine learning add-on is available for the LEGO MINDSTORMS Robot Inventor software, allowing users to integrate machine learning models into their robots. This add-on typically includes the following:
+![maching learn](machinglearn.jpg
 
 1. **Image Data Processing:** The add-on enables the use of the phone camera's image and utilizes this data for training machine learning models. It often includes predefined models that help users quickly start machine learning projects. These models typically address fundamental tasks such as image recognition or identifying movement patterns.
 
 2. **Training:** We train four models (Right Red Obstacle, Left Red Obstacle, Right Green Obstacle, Left Green Obstacle). Eight to ten photos per model are sufficient.
 
 3. **Usage:** When the robot is in front of the obstacle, it uses the machine learning add-on. It moves according to the most likely option provided by the four models.
+![flowchart](Obstacleflowchart.jpg)
 
+
+# 3. Block code
+![code 1](code1.jpg)
+![code 2](code2.jpg)
+![code 3](code3.jpg)
+![code 4](code4.jpg)
+![code 5](code5.jpg)
