@@ -1,4 +1,4 @@
-# Hardvare:
+# Hardware:
 This project can be done with a laptop or a computer if you can connect the hub with a data cable or bluetooth to the computer/laptop and have the necessary softwares
 
 
