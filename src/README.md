@@ -1,5 +1,6 @@
 # Hardware:
-This project can be done with a laptop or a computer if you can connect the hub with a data cable or bluetooth to the computer/laptop and have the necessary softwares
+This project can be done with a laptop or a computer running windows 10 or newer if you can connect the hub with a data 
+cable or bluetooth to the computer/laptop and have the necessary softwares
 
 
 # Softwares for programming the Spike hub:
