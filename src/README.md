@@ -29,3 +29,5 @@ section enable machine learning)
 
 For this we used a mobile phone that supported the Lego Mindstorms app uploaded the code 
 to the phone and we trained the AI to indentify the obstacles and which side is it at(left or right)
+
+<img src="./pictures/obstacle.jpg" alt="training the AI">
