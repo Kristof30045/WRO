@@ -29,7 +29,8 @@ section enable machine learning)
 <img src="block_extensions.png" alt="block extensions">
 
 ![extensions2](https://github.com/user-attachments/assets/bafc4e21-3fd3-49a3-be0b-c926aeccb9cd)
-![sensors](https://github.com/user-attachments/assets/668ec682-6a93-4068-bf7d-d5bcc924ee40)
+![sensors](https://github.com/user-attachments/assets/19844584-cdb9-4b06-b388-53936e935848)
+
 <img src="machine_learning_on.png" alt="machine learning enable">
 
 For this we used a mobile phone that supported the Lego Mindstorms app uploaded the code 
