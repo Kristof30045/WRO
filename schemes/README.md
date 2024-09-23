@@ -1,6 +1,6 @@
 
 # 1. Prototype
-![robot](../v-photos/left.jpg)
+![robot](../pictures/robot.jpg)
 
 1. **Considerations**  
       - High manoeuvrability  
