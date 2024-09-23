@@ -10,6 +10,7 @@ and used an online editor that can be opened in a browser that supports connecti
 We used the official Mindstorms app(we downloaded it from microsoft store)
 
 Fortunately we did not needed any downloadable extensions because the mindorms app supports machine learning and we used that
-to indentify any obstacle (you can apply it when you open block extensions in the bottom left corner).
+to indentify any obstacle (you can apply it when you open block extensions in the bottom left corner and in the experimental section enable machine learning).
 
 <img src="block_extensions.png" alt="block extensions">
+
