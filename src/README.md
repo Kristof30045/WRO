@@ -14,3 +14,4 @@ to indentify any obstacle (you can apply it when you open block extensions in th
 
 <img src="block_extensions.png" alt="block extensions">
 
+<img src="machine_learning_enable.png" alt="block extensions">
