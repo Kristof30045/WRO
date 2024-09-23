@@ -13,6 +13,8 @@ as good as possible.
 
 We used the official Mindstorms app(we downloaded it from microsoft store)
 
+![mindstorms](https://github.com/user-attachments/assets/89de9ff0-01e0-49ab-befc-0fb218d19033)
+
 
 Fortunately we did not needed any downloadable extensions because the mindorms app supports machine learning and we used that
 to indentify any obstacle (you can apply it when you open block extensions in the bottom left corner and in the experimental section enable machine learning).
@@ -21,4 +23,3 @@ to indentify any obstacle (you can apply it when you open block extensions in th
 
 <img src="machine_learning_on.png" alt="machine learning enable">
 
-![mindstorms](https://github.com/user-attachments/assets/89de9ff0-01e0-49ab-befc-0fb218d19033)
