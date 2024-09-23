@@ -22,7 +22,8 @@
 
 A machine learning add-on is available for the LEGO MINDSTORMS Robot Inventor software, allowing users to integrate machine learning models into their robots. This add-on typically includes the following:
 
-![maching learning](../pictures/obstacle.jpg)  
+<img src="../pictures/obstacle.jpg" alt="maching learning" width="300">
+
 
 1. **Image Data Processing:** The add-on enables the use of the phone camera's image and utilizes this data for training machine learning models. It often includes predefined models that help users quickly start machine learning projects. These models typically address fundamental tasks such as image recognition or identifying movement patterns.
 
