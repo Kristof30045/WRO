@@ -13,7 +13,7 @@ as good as possible.
 
 We used the official Mindstorms app(we downloaded it from microsoft store)
 
-![mindstorms](https://github.com/user-attachments/assets/89de9ff0-01e0-49ab-befc-0fb218d19033)
+<img src="mindstorms.png" alt="mindstorms">
 
 
 Fortunately we did not needed any downloadable extensions because the mindorms app supports machine learning and we used that
