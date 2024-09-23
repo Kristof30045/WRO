@@ -6,7 +6,10 @@ cable or bluetooth to the computer/laptop, a mobile phone that support the minds
 # Softwares for programming the Spike hub:
 
 We first used the Lego Spike desktop application which can be downloaded from the Lego Educations website 
-and used an online editor that can be opened in a browser that supports connecting to the hub (we used Google Chrome)
+
+![spike_donwload](https://github.com/user-attachments/assets/0c583583-927f-476d-be77-bc5f6d7d77c6)
+
+And we used an online editor that can be opened in a browser that supports connecting to the hub (we used Google Chrome)
 
 We could not complete the obstacle challange with the Spike because we did not had a camera so we only focused on the open challange and make it
 as good as possible.
