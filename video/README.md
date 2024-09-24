@@ -4,7 +4,7 @@ https://youtu.be/ZsN_jBhu9bQ
 
 https://www.youtube.com/watch?v=d_ZkwXk-tY4
 
-###
+
 ### Open challange videos for the Hungarian national competition:
 
 https://www.youtube.com/embed/TlbVdJkLLWk
