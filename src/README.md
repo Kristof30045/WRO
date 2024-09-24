@@ -1,4 +1,3 @@
-
 # 1. Programming
 
    ## a. Formulation of Subtasks
