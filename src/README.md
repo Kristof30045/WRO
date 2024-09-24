@@ -39,13 +39,6 @@ A machine learning add-on is available for the LEGO MINDSTORMS Robot Inventor so
 # 2. Block code
 ![code 1](code1.jpg)
 ![code 2](code2.jpg)
-![code 3](code3.jpg)
-![code 4](code4.jpg)
-![code 5](code5.jpg)
-
-
-
-
 
 
 # Hardware:
