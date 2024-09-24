@@ -1,4 +1,4 @@
-Open challange video and obstacle challenge video for the friendship finals:
+## Open challange video and obstacle challenge video for the friendship finals:
 
 # https://youtu.be/ZsN_jBhu9bQ
 
@@ -6,7 +6,7 @@ Open challange video and obstacle challenge video for the friendship finals:
 
 
 
-Open challange videos for the Hungarian national competition:
+## Open challange videos for the Hungarian national competition:
 
 # https://www.youtube.com/embed/TlbVdJkLLWk
 
