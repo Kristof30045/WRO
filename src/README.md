@@ -36,11 +36,6 @@ A machine learning add-on is available for the LEGO MINDSTORMS Robot Inventor so
 ![flowchart](Obstacleflowchart.jpg)
 
 
-# 2. Block code
-![code 1](code1.jpg)
-![code 2](code2.jpg)
-
-
 # Hardware:
 This project can be done with a laptop or a computer running windows 10 or newer if you can connect the hub with a data 
 cable or bluetooth to the computer/laptop, a mobile phone that support the mindstorms app and have the necessary softwares
