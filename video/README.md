@@ -6,7 +6,7 @@ Open challange video for the friendship finals:
 
 
 
-Open challange videos for the international competition:
+Open challange videos for the national competition:
 
 # https://www.youtube.com/embed/TlbVdJkLLWk
 
